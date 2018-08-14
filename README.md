@@ -13,7 +13,7 @@ root/www.anotherwebsite.com
 1. Important! BACKUP first your extension you want to upgrade! The upgrader will directly overwrites the target, without any warning.
 2. Access to the script on your wamp. Example: "localhost/1click-upgrade"
 3. Enter the path to your extension. Example  "yourwebsite.com/typo3conf/ext/myextension"
-4. Change to in the file "inc/config.php" the vendorname from BERNETimux to your own vendor
+4. Change in the file "inc/config.php" the vendor name from "BERNETimux" to your own vendor.
 5. Click on "Upgrade"
 6. If the script tells you something to fix please do this now.
 
