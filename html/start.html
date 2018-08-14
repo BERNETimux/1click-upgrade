@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
+	<head>
+		<meta charset="utf-8">
+		<title>1Click-Upgrade Prototype</title>
+		<script src="inc/js/jquery-3.2.1.min.js" type="text/javascript"></script>
+		<script src="inc/js/instructions.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div class="mainBox" style="width:700px; margin:0 auto; font-family:verdana;">
+			<span style="font-size:10px">Version: ###scriptVersion###</span>
+			<h1>
+				<span style="color:#00AA00;">1Click-Upgrade Prototype</span>
+			</h1>
+			(Bugfixing-Tool)<br/><br/>
+			<form class="upgrade" action="index.php" method="post" name="upgrade">
+				<span style="font-size:12px;font-weight:bold">Example-Path: website.ch/typo3conf/ext/myextension</span>
+				<br/>
+				<input type="text" name="extensionDir" id="extensionDir" value="###extensionDir###" size="60" />
+				<input type="submit" name="extensionUpgrade" value="Upgrade" />
+				<br>
+
+			</form>
+
+			<br/>
+			<hr>
+			<div style="font-size:14px">###list###</div>
+				
+		</div>
+	</body>
+</html>
