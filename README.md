@@ -6,7 +6,9 @@
 for Example (root = www of localhost)
 
 root/mywebsite.com/typo3conf/ext/myextension   (inside TYPO3)
+
 root/1click-upgrade   			     	 (put the files there)
+
 root/www.anotherwebsite.com
 
 # Upgrade:
