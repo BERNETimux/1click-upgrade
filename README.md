@@ -19,7 +19,7 @@ root/www.anotherwebsite.com
 5. If the script tells you something to fix please do this now.
 
 # Testing: (after upgrade)
-1. Login to the Typo3 Backend. Empty caches of TYPO3 in the Backend. Your Extension has a good chance to work now.
+1. Login to the Typo3 Backend. Empty caches of TYPO3 in the Backend. 
 2. Test your extension very good. (FE/BE)
 3. If nessesary fix the last problems
 
