@@ -1,5 +1,3 @@
-# 1click-upgrade
-
 # Installation:
 1. You need a local wamp to run the index.php
 2. Copy the files to the root - OUTSIDE - of your target website directory.
